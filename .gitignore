@@ -1,0 +1,12 @@
+# Local state (can contain secrets)
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# .terraform directory (can be recreated with init)
+.terraform/
